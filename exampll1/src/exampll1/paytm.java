@@ -35,6 +35,7 @@ public class paytm {
 	public void Paytm() throws AWTException{
 
 		driver.get("https://www.paytm.com");
+		System.out.println("paytm is opened");
 		driver.findElement(By.id("input_1")).sendKeys("sdn books");
 		Robot rr = new Robot();
 		rr.keyPress(KeyEvent.VK_ENTER);
