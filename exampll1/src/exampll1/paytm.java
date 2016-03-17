@@ -51,6 +51,6 @@ public class paytm {
 
 		}
 	System.out.println("screen shots are taken");
-		
+		System.out.println("paytm test case is dine successfully");
 	}
 	}}
