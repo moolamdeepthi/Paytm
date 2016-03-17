@@ -37,6 +37,7 @@ public class paytm {
 		driver.get("https://www.paytm.com");
 		System.out.println("paytm is opened");
 		driver.findElement(By.id("input_1")).sendKeys("sdn books");
+		System.out.println("sdn books are displayed");
 		Robot rr = new Robot();
 		rr.keyPress(KeyEvent.VK_ENTER);
 		rr.keyRelease(KeyEvent.VK_ENTER);
