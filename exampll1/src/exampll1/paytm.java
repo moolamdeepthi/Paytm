@@ -50,5 +50,7 @@ public class paytm {
 			e.printStackTrace();
 
 		}
+	System.out.println("screen shots are taken");
+		
 	}
 	}}
