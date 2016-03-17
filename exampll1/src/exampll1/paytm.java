@@ -30,7 +30,7 @@ public class paytm {
 			newtab.keyRelease(KeyEvent.VK_CONTROL);
 			newtab.keyRelease(KeyEvent.VK_T);
 		}
-	@Test(priority=5)
+	@Test(priority=0)
 	
 	public void Paytm() throws AWTException{
 
